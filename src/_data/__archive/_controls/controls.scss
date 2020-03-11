@@ -1,0 +1,20 @@
+$black: #000000;
+$orange: #f4d4ad;
+
+.control-section {
+    border: 1px solid $black;
+    background-color: $orange;
+    padding: 10px;
+    width: 250px;
+    margin-left: 10px;
+    height: 465px;
+}
+
+.spacing {
+    margin-bottom: 5px;
+}
+
+.right {
+    margin-right: 5px;
+    margin-left: 15px;
+}

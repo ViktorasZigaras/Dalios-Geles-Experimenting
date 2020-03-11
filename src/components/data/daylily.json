@@ -1,0 +1,1607 @@
+[
+    {
+        "name": "Abstract Art", 
+        "img": "Abstract Art", 
+        "extra": "Žiedai stambūs", 
+        "height": "80", 
+        "radius": "14", 
+        "price": "1.5", 
+        "group": "A"
+    }, {
+        "name": "After the Fire", 
+        "img": "After the Fire", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "10.0", 
+        "group": "A"
+    }, {
+        "name": "Alpine Snow", 
+        "img": "Alpine Snow", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "6.9", 
+        "group": "A"
+    }, {
+        "name": "Altresco", 
+        "img": "Altresco", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "A"
+    }, {
+        "name": "Always Afternoon", 
+        "img": "Always Afternoon", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "3.5", 
+        "group": "A"
+    }, {
+        "name": "Amazon Amethyst", 
+        "img": "Amazon Amethyst", 
+        "extra": "Žiedai stambūs", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "1.7", 
+        "group": "A"
+    }, {
+        "name": "American Bicential", 
+        "img": "American Bicential", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "3.5", 
+        "group": "A"
+    }, {
+        "name": "American Revolution", 
+        "img": "American Revolution", 
+        "extra": "Žiedai stambūs", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "A"
+    }, {
+        "name": "Andromeda", 
+        "img": "Andromeda", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.7", 
+        "group": "A"
+    }, {
+        "name": "Anna Wanderlong", 
+        "img": "Anna Wanderlong", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "1.9", 
+        "group": "A"
+    }, {
+        "name": "Anthiemon", 
+        "img": "Anthiemon", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "A"
+    }, {
+        "name": "Apricot Beauty", 
+        "img": "Apricot Beauty", 
+        "extra": "Žiedai labai dideli", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "3.5", 
+        "group": "A"
+    }, {
+        "name": "Arriba", 
+        "img": "Arriba", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "1.7", 
+        "group": "A"
+    }, {
+        "name": "Ascania", 
+        "img": "Ascania", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.5", 
+        "group": "A"
+    }, {
+        "name": "Atėnė", 
+        "img": "Atene", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "2.9", 
+        "group": "A"
+    }, {
+        "name": "Atvasara", 
+        "img": "Atvasara", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "A"
+    }, {
+        "name": "Aušrinė", 
+        "img": "Ausrine", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "A"
+    }, {
+        "name": "Awaited Hour", 
+        "img": "Awaited Hour", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "A"
+    }, 
+      
+    {
+        "name": "Bacon Gold Nugget", 
+        "img": "Bacon Gold Nugget", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "3.9", 
+        "group": "B"
+    }, {
+        "name": "Ballyhoo", 
+        "img": "Ballyhoo", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "3.9", 
+        "group": "B"
+    }, {
+        "name": "Banning", 
+        "img": "Banning", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "B"
+    }, {
+        "name": "Because", 
+        "img": "Because", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "B"
+    }, {
+        "name": "Bed of Roses", 
+        "img": "Bed of Roses", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "11", 
+        "price": "1.7", 
+        "group": "B"
+    }, {
+        "name": "Blue Sheen", 
+        "img": "Blue Sheen", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "11", 
+        "price": "1.9", 
+        "group": "B"
+    }, {
+        "name": "Blushing Belle", 
+        "img": "Blushing Belle", 
+        "extra": "", 
+        "height": "40", 
+        "radius": "11", 
+        "price": "1.5", 
+        "group": "B"
+    }, {
+        "name": "Bold Rubel", 
+        "img": "Bold Rubel", 
+        "extra": "", 
+        "height": "75", 
+        "radius": "11", 
+        "price": "1.5", 
+        "group": "B"
+    }, {
+        "name": "Broken Heart", 
+        "img": "Broken Heart", 
+        "extra": "", 
+        "height": "55", 
+        "radius": "11", 
+        "price": "2.5", 
+        "group": "B"
+    }, {
+        "name": "Buffy's Doll", 
+        "img": "Buffy_s Doll", 
+        "extra": "", 
+        "height": "40", 
+        "radius": "9", 
+        "price": "2.2", 
+        "group": "B"
+    }, {
+        "name": "Bull Durham", 
+        "img": "Bull Durham", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.7", 
+        "group": "B"
+    }, 
+    
+    {
+        "name": "Canary", 
+        "img": "Canary", 
+        "extra": "Garbanoti žiedai", 
+        "height": "60", 
+        "radius": "11", 
+        "price": "4.9", 
+        "group": "C"
+    }, {
+        "name": "Catherine Woodbury", 
+        "img": "Catherine Woodbury", 
+        "extra": "Smulkiažiedė", 
+        "height": "50", 
+        "radius": "9", 
+        "price": "1.5", 
+        "group": "C"
+    }, {
+        "name": "Cerinu Fėja", 
+        "img": "Cerinu Feja", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "C"
+    }, {
+        "name": "Chance Encounter", 
+        "img": "Chance Encounter", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "15", 
+        "price": "5.5", 
+        "group": "C"
+    }, {
+        "name": "Charm Bracelet", 
+        "img": "Charm Bracelet", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "1.7", 
+        "group": "C"
+    }, {
+        "name": "Cherry Lace", 
+        "img": "Cherry Lace", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "C"
+    }, {
+        "name": "Chicago Royal Robe", 
+        "img": "Chicago Royal Robe", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "C"
+    }, {
+        "name": "Chloe's Child", 
+        "img": "Chloe_s Child", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "", 
+        "group": "C"
+    }, {
+        "name": "Citrininė 1", 
+        "img": "Citrinine-Petkeviciaus", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "", 
+        "group": "C"
+    }, {
+        "name": "Citrininė 2", 
+        "img": "Citrinine-Voras", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "C"
+    }, {
+        "name": "Cloverdale", 
+        "img": "Cloverdale", 
+        "extra": "Žiedai stambūs", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "1.9", 
+        "group": "C"
+    }, {
+        "name": "Conspicua", 
+        "img": "Conspicua", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "C"
+    }, {
+        "name": "Crestwood Lucy", 
+        "img": "Crestwood Lucy", 
+        "extra": "", 
+        "height": "55", 
+        "radius": "12", 
+        "price": "1.7", 
+        "group": "C"
+    }, {
+        "name": "Crystal Ball", 
+        "img": "Crystal Ball", 
+        "extra": "Žiedai stambūs", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "", 
+        "group": "C"
+    }, 
+    
+    {
+        "name": "D.R.", 
+        "img": "DR", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.9", 
+        "group": "D"
+    }, {
+        "name": "Dacquiri", 
+        "img": "Dacquiri", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "D"
+    }, {
+        "name": "Date Book", 
+        "img": "Date Book", 
+        "extra": "Žiedai stambūs", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "D"
+    }, {
+        "name": "Dear Moon", 
+        "img": "Dear Moon", 
+        "extra": "Žiedai stambūs", 
+        "height": "60", 
+        "radius": "", 
+        "price": "2.2", 
+        "group": "D"
+    }, {
+        "name": "Destined to See", 
+        "img": "Destined to See", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "2.2", 
+        "group": "D"
+    }, {
+        "name": "Dinara", 
+        "img": "Dinara", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "2.5", 
+        "group": "D"
+    }, {
+        "name": "Dinkum Aussie", 
+        "img": "Dinkum Aussie", 
+        "extra": "Žiedai stambūs", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "2.2", 
+        "group": "D"
+    }, {
+        "name": "Dixie Rhythm", 
+        "img": "Dixie Rhythm", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "3.5", 
+        "group": "D"
+    }, {
+        "name": "Dorothy Lambert", 
+        "img": "Dorothy Lambert", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "", 
+        "group": "D"
+    }, {
+        "name": "Double Bold One", 
+        "img": "Double Bold One", 
+        "extra": "Pilnavidurė", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "", 
+        "group": "D"
+    }, {
+        "name": "Double Challenge", 
+        "img": "Double Challenge", 
+        "extra": "Pilnavidurė", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "2.9", 
+        "group": "D"
+    }, {
+        "name": "Double Dream", 
+        "img": "Double Dream", 
+        "extra": "Smulkiažiedė, pilnavidurė", 
+        "height": "50", 
+        "radius": "10", 
+        "price": "", 
+        "group": "D"
+    }, {
+        "name": "Double River Wye", 
+        "img": "Double River Wye", 
+        "extra": "Pilnavidurė", 
+        "height": "70", 
+        "radius": "11", 
+        "price": "2.9", 
+        "group": "D"
+    }, {
+        "name": "DV-66 (sėjinukas)", 
+        "img": "DV-66", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "", 
+        "group": "D"
+    }, {
+        "name": "Dzūkė", 
+        "img": "Dzuke", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "D"
+    }, {
+        "name": "Džuljeta", 
+        "img": "Dzuljeta", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "", 
+        "group": "D"
+      
+    }, 
+    
+    {    
+        "name": "Edene", 
+        "img": "Edene", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "E"
+    }, {
+        "name": "Edna Spalding", 
+        "img": "Edna Spalding", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "E"
+    }, {
+        "name": "El Desperado", 
+        "img": "El Desperado", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "3.9", 
+        "group": "E"
+    }, {
+        "name": "Elegance", 
+        "img": "Elegance", 
+        "extra": "", 
+        "height": "75", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "E"
+    }, {
+        "name": "Elizabeth Elaine", 
+        "img": "Elizabeth Elaine", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "15", 
+        "price": "3.5", 
+        "group": "E"
+    }, {
+        "name": "Emerald Joy", 
+        "img": "Emerald Joy", 
+        "extra": "", 
+        "height": "50", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "E"
+    }, {
+        "name": "Enigma", 
+        "img": "Enigma", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "4.9", 
+        "group": "E"
+    }, {
+        "name": "Eneidė", 
+        "img": "Eneide", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "16", 
+        "price": "3.5", 
+        "group": "E"
+    }, {
+        "name": "Era", 
+        "img": "Era", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "16", 
+        "price": "3.5", 
+        "group": "E"
+    }, {
+        "name": "Exotic Candy", 
+        "img": "Exotic Candy", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.5", 
+        "group": "E"
+    }, 
+    
+    {
+        "name": "Family Party", 
+        "img": "Family Party", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "F"
+    }, {
+        "name": "Fashion Queen", 
+        "img": "Fashion Queen", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "F"
+    }, {
+        "name": "Flamboyant Eyes", 
+        "img": "Flamboyant Eyes", 
+        "extra": "Žiedai stambūs", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "5.5", 
+        "group": "F"
+    }, {
+        "name": "Floyd Cove", 
+        "img": "Floyd Cove", 
+        "extra": "Garbanota", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "", 
+        "group": "F"
+    }, {
+        "name": "Fooled Me", 
+        "img": "Fooled Me", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "", 
+        "group": "F"
+    }, {
+        "name": "Frances Fay", 
+        "img": "Frances Fay", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "F"
+    }, {
+        "name": "Frans Hals", 
+        "img": "Frans Hals", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "10", 
+        "price": "1.7", 
+        "group": "F"
+    }, 
+    
+    {
+        "name": "Gavin Petit", 
+        "img": "Gavin Petit", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "10.0", 
+        "group": "G"
+    }, {
+        "name": "Gentle Shepherd", 
+        "img": "Gentle Shepherd", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "", 
+        "group": "G"
+    }, {
+        "name": "George Cunningham", 
+        "img": "George Cunningham", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "G"
+    }, {
+        "name": "Golden Angel", 
+        "img": "Golden Angel", 
+        "extra": "Žiedai stambūs", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "2.7", 
+        "group": "G"
+    }, {
+        "name": "Golden Gift", 
+        "img": "Golden Gift", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "G"
+    }, {
+        "name": "Grand Ways", 
+        "img": "Grand Ways", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "17", 
+        "price": "2.9", 
+        "group": "G"
+    }, {
+        "name": "Grape Velvet", 
+        "img": "Grape Velvet", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "9", 
+        "price": "1.7", 
+        "group": "G"
+    }, {
+        "name": "Greenwood Hall", 
+        "img": "Greenwood Hall", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "G"
+    }, {
+        "name": "Gulbės Giesmė", 
+        "img": "Gulbes Giesme", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "", 
+        "group": "G"
+    }, 
+    
+    {
+        "name": "Hey There", 
+        "img": "Hey There", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.7", 
+        "group": "H"
+    }, {
+        "name": "Highland Lord", 
+        "img": "Highland Lord", 
+        "extra": "Pilnavidurė", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "5.9", 
+        "group": "H"
+    }, {
+        "name": "Huckleberry Candy", 
+        "img": "Huckleberry Candy", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "H"
+    }, 
+    
+    {
+        "name": "In Depth", 
+        "img": "In Depth", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "I"
+    }, {
+        "name": "Inku Zelts", 
+        "img": "Inku Zelts", 
+        "extra": "", 
+        "height": "80", 
+        "radius": "16", 
+        "price": "", 
+        "group": "I"
+    }, 
+    
+    {
+        "name": "Jedi Tequila Sunrise", 
+        "img": "Jedi Tequila Sunrise", 
+        "extra": "", 
+        "height": "50", 
+        "radius": "14", 
+        "price": "", 
+        "group": "J"
+    }, {
+        "name": "Jenny Sve", 
+        "img": "Jenny Sve", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "2.5", 
+        "group": "J"
+    }, {
+        "name": "Juta", 
+        "img": "Juta", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "J"
+    }, 
+    
+    {
+        "name": "Kameliju Dama", 
+        "img": "Kameliju Dama", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "", 
+        "group": "K"
+    }, {
+        "name": "Kansas Gold", 
+        "img": "Kansas Gold", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "", 
+        "group": "K"
+    }, {
+        "name": "Knighthood", 
+        "img": "Knighthood", 
+        "extra": "", 
+        "height": "85", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "K"
+    }, {
+        "name": "Kronis Visam", 
+        "img": "Kronis Visam", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "3.5", 
+        "group": "K"
+    }, {
+        "name": "Kwanso", 
+        "img": "Kwanso", 
+        "extra": "Pilnavidurė, žydi iki šalnų", 
+        "height": "95", 
+        "radius": "13", 
+        "price": "1.7", 
+        "group": "K"
+    }, 
+    
+    {
+        "name": "Lace Fan", 
+        "img": "Lace Fan", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "L"
+    }, {
+        "name": "Lady Inara Cubiles", 
+        "img": "Lady Inara Cubiles", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "11", 
+        "price": "1.9", 
+        "group": "L"
+    }, {
+        "name": "Lady Rose", 
+        "img": "Lady Rose", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "2.2", 
+        "group": "L"
+    }, {
+        "name": "Lasvegasa", 
+        "img": "Lasvegasa", 
+        "extra": "", 
+        "height": "", 
+        "radius": "13", 
+        "price": "1.7", 
+        "group": "L"
+    }, {
+        "name": "Love Those Eyes", 
+        "img": "Love Those Eyes", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "2.2", 
+        "group": "L"
+    }, {
+        "name": "Lowcountry Sunrise", 
+        "img": "Lowcountry Sunrise", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "15", 
+        "price": "2.2", 
+        "group": "L"
+    }, 
+    
+    {
+        "name": "Magic Amethyst", 
+        "img": "Magic Amethyst", 
+        "extra": "Garbanota", 
+        "height": "60", 
+        "radius": "15", 
+        "price": "2.5", 
+        "group": "M"
+    }, {
+        "name": "Magija", 
+        "img": "Magija", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "M"
+    }, {
+        "name": "Margaret Perry", 
+        "img": "Margaret Perry", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "M"
+    }, {
+        "name": "Marylka", 
+        "img": "Marylka", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.5", 
+        "group": "M"
+    }, {
+        "name": "Maza Zeltene", 
+        "img": "Maza Zeltene", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "3.5", 
+        "group": "M"
+    }, {
+        "name": "Meilutė", 
+        "img": "Meilute", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "4.9", 
+        "group": "M"
+    }, {
+        "name": "Melodija", 
+        "img": "Melodija", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.9", 
+        "group": "M"
+    }, {
+        "name": "Midendorfo", 
+        "img": "Midendorfo", 
+        "extra": "Pati ankstyviausia, žydi gegužę", 
+        "height": "50", 
+        "radius": "11", 
+        "price": "1.5", 
+        "group": "M"
+    }, {
+        "name": "Minstrel Boy", 
+        "img": "Minstrel Boy", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "1.9", 
+        "group": "M"
+    }, {
+        "name": "Miss Latvia", 
+        "img": "Miss Latvia", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "15", 
+        "price": "2.9", 
+        "group": "M"
+    }, {
+        "name": "Mystical Rainbow", 
+        "img": "Mystical Rainbow", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.9", 
+        "group": "M"
+    }, {
+        "name": "M.M.", 
+        "img": "MM", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.9", 
+        "group": "M"
+    }, 
+    
+    {
+        "name": "Never Ending Story", 
+        "img": "Never Ending Story", 
+        "extra": "Garbanota", 
+        "height": "85", 
+        "radius": "18", 
+        "price": "5.5", 
+        "group": "N"
+    }, {
+        "name": "Night Beacon", 
+        "img": "Night Beacon", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "2.9", 
+        "group": "N"
+    }, {
+        "name": "Night Embers", 
+        "img": "Night Embers", 
+        "extra": "Pilnavidurė", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "6.9", 
+        "group": "N"
+    }, {
+        "name": "Nothing", 
+        "img": "Nothing", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "N"
+    }, {
+        "name": "Nr. 60", 
+        "img": "Nr 60", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "1.5", 
+        "group": "N"
+    }, {
+        "name": "Nr. 70", 
+        "img": "Nr 70", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "2.5", 
+        "group": "N"
+    }, 
+    
+    {
+        "name": "Odeta", 
+        "img": "Odeta", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.9", 
+        "group": "O"
+    }, {
+        "name": "Ofelija", 
+        "img": "Ofelija", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "", 
+        "price": "", 
+        "group": "O"
+    }, {
+        "name": "Operetė", 
+        "img": "Operete", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "O"
+    }, {
+        "name": "Orange Delight", 
+        "img": "Orange Delight", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "", 
+        "group": "O"
+    }, {
+        "name": "Orange Velvet", 
+        "img": "Orange Velvet", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "", 
+        "group": "O"
+    }, 
+    
+    {
+        "name": "Pavlovsk", 
+        "img": "Pavlovsk", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "1.5", 
+        "group": "P"
+    }, {
+        "name": "Peaches and Gold", 
+        "img": "Peaches and Gold", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "", 
+        "group": "P"
+    }, {
+        "name": "Picasso", 
+        "img": "Picasso", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "1.7", 
+        "group": "P"
+    }, {
+        "name": "Preilenite", 
+        "img": "Red Cup", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.5", 
+        "group": "P"
+    }, {
+        "name": "President Marque", 
+        "img": "President Marque", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "1.7", 
+        "group": "P"
+    }, {
+        "name": "Pronto", 
+        "img": "Pronto", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "2.9", 
+        "group": "P"
+    }, {
+        "name": "Purple Waters", 
+        "img": "Purple Waters", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "1.7", 
+        "group": "P"
+    },
+
+    {
+        "name": "Real Wind",
+        "img": "Real Wind", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "", 
+        "group": "R"
+    }, {
+        "name": "Red Cup", 
+        "img": "Red Cup", 
+        "extra": "", 
+        "height": "50", 
+        "radius": "9", 
+        "price": "5.5", 
+        "group": "R"
+    }, {
+        "name": "Red Velour", 
+        "img": "Red Velour", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "16", 
+        "price": "1.5", 
+        "group": "R"
+    }, {
+        "name": "Regal Air", 
+        "img": "Regal Air", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "R"
+    }, {
+        "name": "Renaissance", 
+        "img": "Renaissance", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "", 
+        "group": "R"
+    }, {
+        "name": "Rhapsody in Pink", 
+        "img": "Rhapsody in Pink", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "R"
+    }, {
+        "name": "Ryto Aušra", 
+        "img": "Ryto Ausra", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.5", 
+        "group": "R"
+    }, {
+        "name": "Rococo", 
+        "img": "Rococo", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "11", 
+        "price": "2.2", 
+        "group": "R"
+    }, {
+        "name": "Rokiškietė", 
+        "img": "Rokiskiete", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "R"
+    }, {
+        "name": "Rondo", 
+        "img": "Rondo", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.7", 
+        "group": "R"
+    }, {
+        "name": "Rožinė", 
+        "img": "Rozine", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.5", 
+        "group": "R"
+    }, {
+        "name": "Rokiškietė", 
+        "img": "Rokiskiete", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.9", 
+        "group": "R"
+    }, {
+        "name": "Rožinė su bordo dėme", 
+        "img": "Rozine su bordo deme", 
+        "extra": "", 
+        "height": "50", 
+        "radius": "10", 
+        "price": "2.2", 
+        "group": "R"
+    }, {
+        "name": "Rudens Balle", 
+        "img": "Rudens Balle", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "", 
+        "group": "R"
+    }, {
+        "name": "Ruffled Apricot", 
+        "img": "Ruffled Apricot", 
+        "extra": "Garbanota", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "3.5", 
+        "group": "R"
+    }, {
+        "name": "Russian Rhapsody", 
+        "img": "Russian Rhapsody", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "R"
+    }, 
+    
+    {
+        "name": "Saimniekmeita", 
+        "img": "Saimniekmeita", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "2.5", 
+        "group": "S"
+    }, {
+        "name": "Sandalwood", 
+        "img": "Sandalwood", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "S"
+    }, {
+        "name": "Saules Mezgines", 
+        "img": "Saules Mezgines", 
+        "extra": "Didžiuliai garbanoti žiedai", 
+        "height": "65", 
+        "radius": "17", 
+        "price": "6.9", 
+        "group": "S"
+    }, {
+        "name": "Schnickel Fritz", 
+        "img": "Schnickel Fritz", 
+        "extra": "Pilnavidurė", 
+        "height": "50", 
+        "radius": "12", 
+        "price": "9,0", 
+        "group": "S"
+    }, {
+        "name": "Sea Gold", 
+        "img": "Sea Gold", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "S"
+    }, {
+        "name": "Serene Madonna", 
+        "img": "Serene Madonna", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "3.9", 
+        "group": "S"
+    }, {
+        "name": "Siloam Bye Lo", 
+        "img": "Siloam Bye Lo", 
+        "extra": "", 
+        "height": "45", 
+        "radius": "10", 
+        "price": "1.9", 
+        "group": "S"
+    }, {
+        "name": "Siloam Double Classic", 
+        "img": "Siloam Double Classic", 
+        "extra": "Pilnavidurė", 
+        "height": "55", 
+        "radius": "12", 
+        "price": "6.9", 
+        "group": "S"
+    }, {
+        "name": "Smiltė", 
+        "img": "Smilte", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.7", 
+        "group": "S"
+    }, {
+        "name": "Sonja", 
+        "img": "Sonja", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.2", 
+        "group": "S"
+    }, {
+        "name": "Stage Coach", 
+        "img": "Stage Coach", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "S"
+    }, {
+        "name": "Starling", 
+        "img": "Starling", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "15", 
+        "price": "1.9", 
+        "group": "S"
+    }, {
+        "name": "Stella de Oro", 
+        "img": "Stella de Oro", 
+        "extra": "Žemaūgė, žydi visą sezoną", 
+        "height": "30", 
+        "radius": "6", 
+        "price": "1.5", 
+        "group": "S"
+    }, {
+        "name": "Strawberry Candy", 
+        "img": "Strawberry Candy", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "2.7", 
+        "group": "S"
+    }, {
+        "name": "Strawberry Swirl", 
+        "img": "Strawberry Swirl", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "1.9", 
+        "group": "S"
+    }, {
+        "name": "Strutter's Ball", 
+        "img": "Strutter's Ball", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "3.5", 
+        "group": "S"
+    }, {
+        "name": "Sugar Candy", 
+        "img": "Sugar Candy", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "1.7", 
+        "group": "S"
+    }, {
+        "name": "Sun Singer", 
+        "img": "Sun Singer", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "S"
+    }, {
+        "name": "Sunny Lady", 
+        "img": "Sunny Lady", 
+        "extra": "Pilnavidurė", 
+        "height": "55", 
+        "radius": "10", 
+        "price": "3.5", 
+        "group": "S"
+    }, {
+        "name": "Super Purple", 
+        "img": "Super Purple", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "2.5", 
+        "group": "S"
+    }, {
+        "name": "Swiss Strawberry", 
+        "img": "Swiss Strawberry", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "13", 
+        "price": "1.7", 
+        "group": "S"
+    }, 
+    
+    {
+        "name": "Top Billing", 
+        "img": "Top Billing", 
+        "extra": "", 
+        "height": "80", 
+        "radius": "15", 
+        "price": "1.9", 
+        "group": "T"
+    }, {
+        "name": "Total Look", 
+        "img": "Total Look", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "4.0", 
+        "group": "T"
+    }, {
+        "name": "Tracy Hall", 
+        "img": "Tracy Hall", 
+        "extra": "", 
+        "height": "50", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "T"
+    }, {
+        "name": "Tuk Tuk", 
+        "img": "Tuk Tuk", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "13", 
+        "price": "2.5", 
+        "group": "T"
+    }, {
+        "name": "Tyroji", 
+        "img": "Tyroji", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "", 
+        "group": "T"
+    }, 
+    
+    {
+        "name": "V-1", 
+        "img": "V-1", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "2.2", 
+        "group": "V"
+    }, {
+        "name": "V-2", 
+        "img": "V-2", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "V"
+    }, {
+        "name": "V-3", 
+        "img": "V-3", 
+        "extra": "Smulkiažiedė", 
+        "height": "50", 
+        "radius": "9", 
+        "price": "1.5", 
+        "group": "V"
+    }, {
+        "name": "V-4", 
+        "img": "V-4", 
+        "extra": "", 
+        "height": "75", 
+        "radius": "15", 
+        "price": "2.5", 
+        "group": "V"
+    }, {
+        "name": "V-5", 
+        "img": "V-5", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.5", 
+        "group": "V"
+    }, {
+        "name": "V-6", 
+        "img": "V-6", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "V"
+    }, {
+        "name": "V-8", 
+        "img": "V-8", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "", 
+        "price": "", 
+        "group": "V"
+    }, {
+        "name": "Varsity", 
+        "img": "Varsity", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "12", 
+        "price": "1.7", 
+        "group": "V"
+    }, {
+        "name": "Vilnis", 
+        "img": "Vilnis", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.4", 
+        "group": "V"
+    }, {
+        "name": "Viltis", 
+        "img": "Viltis", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "13", 
+        "price": "1.9", 
+        "group": "V"
+
+    }, {
+        "name": "Violetinis Žaisliukas", 
+        "img": "Violetinis Zaisliukas", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "V"
+    }, {
+        "name": "Vivaldi", 
+        "img": "Vivaldi", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "1.5", 
+        "group": "V"
+    }, 
+    
+    {
+        "name": "When My Sweetheart Returns", 
+        "img": "When My Sweetheart Returns", 
+        "extra": "", 
+        "height": "55", 
+        "radius": "12", 
+        "price": "2.5", 
+        "group": "W"
+    }, {
+        "name": "William Austin Norris", 
+        "img": "William Austin Norris", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "15", 
+        "price": "1.9", 
+        "group": "W"
+    }, {
+        "name": "Winyah Deep Throat", 
+        "img": "Winyah Deep Throat", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "16", 
+        "price": "3.5", 
+        "group": "W"
+    }, {
+        "name": "Winter Palace", 
+        "img": "Winter Palace", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "4.5", 
+        "group": "W"
+    }, {
+        "name": "World Class Oddity", 
+        "img": "World Class Oddity", 
+        "extra": "", 
+        "height": "60", 
+        "radius": "14", 
+        "price": "1.9", 
+        "group": "W"
+    }, 
+    
+    {
+        "name": "Žavutė", 
+        "img": "Zavute", 
+        "extra": "", 
+        "height": "65", 
+        "radius": "14", 
+        "price": "3.5", 
+        "group": "Z"
+    }, {
+        "name": "Žileviciaus", 
+        "img": "Zileviciaus", 
+        "extra": "", 
+        "height": "70", 
+        "radius": "14", 
+        "price": "1.7", 
+        "group": "Z"
+    }
+]

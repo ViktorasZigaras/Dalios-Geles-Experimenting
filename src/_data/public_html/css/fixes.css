@@ -1,0 +1,32 @@
+.center a{
+    /*text-align: center;*/
+    /*padding: 5px;*/
+}
+.center div{
+    text-align: center;
+    padding-top: 5px;
+}
+/*<div class="center">
+      <a href="pictures/daylily/Abstract Art.JPG"><img src="pictures/daylily/Abstract Art.JPG" alt="" class="image"/></a>
+      <a href="pictures/daylily/Abstract Art_1.JPG"><img src="pictures/daylily/Abstract Art_1.JPG" alt="" class="image"/></a>
+      <div>Abstract Art</div>
+      <div>Žiedai stambūs, aukštis 80 cm.</div>
+      <div><em>Kaina 1,3 € &nbsp; &#11585; 14 cm</em></div>
+    </div>*/
+
+
+
+.table {
+    width: 800px;
+    text-align: center;
+    /*border-width: 1px;*/
+}
+
+.info {
+    width: 360px;
+}
+
+.image {
+    /*width: 210px;*/
+    height: 160px;
+}
