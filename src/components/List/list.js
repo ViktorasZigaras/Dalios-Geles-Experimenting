@@ -9,23 +9,31 @@ const List = ( props ) => {
 
     if ( state.distributedListStructures.length === 0 ) json( )
 
-    // console.log( props.selectedList, 'index' )
+    console.log( props.selectedList, 'index' )
     // console.log( state.distributedListStructures[ props.selectedList ], 'content' )
 
-    const onTabClick = ( index ) => props.setSelectedList = index 
+    const onTabClick = ( index ) => {
+        // props.setSelectedList = index 
+        props[ 'setSelectedList' ]( index ) 
+        console.log( index, 'index change' )
+    }
  
     return (
         <div>
-            <div className="navigation">
-                <div className="tab" onClick={ ( ) => onTabClick ( 0 ) }>AB</div>
-                <div className="tab" onClick={ ( ) => onTabClick ( 1 ) }>CD</div>
-                <div className="tab" onClick={ ( ) => onTabClick ( 2 ) }>EH</div>
-                <div className="tab" onClick={ ( ) => onTabClick ( 3 ) }>IM</div>
-                <div className="tab" onClick={ ( ) => onTabClick ( 4 ) }>NP</div>
-                <div className="tab" onClick={ ( ) => onTabClick ( 5 ) }>RS</div>
-                <div className="tab" onClick={ ( ) => onTabClick ( 6 ) }>TZ</div>
+            <div className="navigation-container">
+                <div className="navigation">
+                    <div className="tab" onClick={ ( ) => onTabClick ( 0 ) }>AB</div>
+                    <div className="tab" onClick={ ( ) => onTabClick ( 1 ) }>CD</div>
+                    <div className="tab" onClick={ ( ) => onTabClick ( 2 ) }>EH</div>
+                    <div className="tab" onClick={ ( ) => onTabClick ( 3 ) }>IM</div>
+                    <div className="tab" onClick={ ( ) => onTabClick ( 4 ) }>NP</div>
+                    <div className="tab" onClick={ ( ) => onTabClick ( 5 ) }>RS</div>
+                    <div className="tab" onClick={ ( ) => onTabClick ( 6 ) }>TZ</div>
+                </div>
             </div>
-            <div> { state.distributedListStructures[ props.selectedList ] } </div>
+            <div className="list-container"> 
+                { state.distributedListStructures[ props.selectedList ] } 
+            </div>
         </div>
     )
 }  

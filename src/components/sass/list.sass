@@ -3,14 +3,25 @@ $count: 7
 
 .root
     --count: 7
-    
-.navigation
-    display: inline-block
-    width: 100%
-    border: 3px solid blue
 
-    .tab
+.navigation-container
+    // position: relative
+    
+    .navigation
         display: inline-block
-        width: calc( 95% / 7 )
-        border: 1px solid green
-        cursor: pointer
+        border: 3px solid blue
+        position: fixed
+        height: 50px
+        width: 800px
+        background-color: #FFF
+        top: 0
+        padding: 30px
+
+        .tab
+            display: inline-block
+            width: 50px
+            border: 1px solid green
+            cursor: pointer
+
+.list-container
+    margin-top: 60px
