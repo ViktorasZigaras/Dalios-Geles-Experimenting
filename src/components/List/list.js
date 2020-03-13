@@ -1,159 +1,113 @@
-import React, { PureComponent } from 'react'
+import React/*, { PureComponent }*/ from 'react'
+import { connect } from 'react-redux'
+import Actions from '../../redux/actions'
 import '../sass/list.sass'
 
-class List extends PureComponent {
-    constructor( props ) {
-        super( props )
-        this.state = {
-            itemList: [ ],
-            distributedLists: [ ],
-            distributedListStructures: [ ],
-            selectedList: 0
-        }
+const List = ( props ) => {
 
-        //AB
-        //CD
-        //EFGH
-        //IJKLM
-        //NOPQ
-        //RS
-        //TUVWXYZ
+    // console.log( state.distributedListStructures.length, 'length' )
 
-        const formLists = ( lists ) => {
-            const structures = []
-            // let html = ''
-            lists.forEach( ( category ) => { 
-                let html = [ ]
-                category.forEach( ( item ) => {
-                    html.push(
-                    <div>
-                        <div> { item.name }</div>
-                        <div>E: { item.extra }</div>
-                        <div>H: { item.height }</div>
-                        <div>R: { item.radius }</div>
-                        <div>P: { item.price }</div>
-                    </div>)
-                })
-                structures.push( html )
-            })
-            console.log( structures )
-            // this.setState( { distributedListStructures: structures } )
-            this.state.distributedListStructures = structures
-        }
+    if ( state.distributedListStructures.length === 0 ) json( )
 
-        const json = ( ) => {
-            const request = new XMLHttpRequest( )
-            request.open( 'GET', './daylily.json', false )
-            request.send( null )
-            const file = JSON.parse( request.responseText ).sort( ( a, b ) => ( a.name > b.name ) ? 1 : -1 )
-            // this.setState( { itemList: file } )
-            this.state.itemList = file
-            // return console.log( file, 'bbb', file.length )
-            const lists = [ [ ], [ ], [ ], [ ], [ ], [ ], [ ] ]
-            //
-            file.forEach( ( entry ) => { 
-                if ( 
-                    entry.group === 'A' || 
-                    entry.group === 'B' 
-                ) lists[0].push( entry )
-                else if ( 
-                    entry.group === 'C' || 
-                    entry.group === 'D' 
-                ) lists[1].push( entry )
-                else if ( 
-                    entry.group === 'E' || 
-                    entry.group === 'F' || 
-                    entry.group === 'G' || 
-                    entry.group === 'H' 
-                ) lists[2].push( entry )
-                else if ( 
-                    entry.group === 'I' || 
-                    entry.group === 'J' || 
-                    entry.group === 'K' || 
-                    entry.group === 'L' || 
-                    entry.group === 'M' 
-                ) lists[3].push( entry )
-                else if ( 
-                    entry.group === 'N' || 
-                    entry.group === 'O' || 
-                    entry.group === 'P' || 
-                    entry.group === 'Q' 
-                ) lists[4].push( entry )
-                else if ( 
-                    entry.group === 'R' || 
-                    entry.group === 'S' 
-                ) lists[5].push( entry )
-                else if ( 
-                    entry.group === 'T' || 
-                    entry.group === 'U' || 
-                    entry.group === 'V' || 
-                    entry.group === 'W' || 
-                    entry.group === 'X' ||
-                    entry.group === 'Y' ||
-                    entry.group === 'Z' 
-                ) lists[6].push( entry )
-            })
-            this.state.distributedLists = lists
-            // this.setState( { distributedLists: lists } )
-            //
-            console.log( lists )
+    // console.log( props.selectedList, 'index' )
+    // console.log( state.distributedListStructures[ props.selectedList ], 'content' )
 
-            formLists( lists )
-
-            //return 
-        }
-
-        json( )
-
-        console.log( this.state );
-        
-
-    }
+    const onTabClick = ( index ) => props.setSelectedList = index 
  
-    render( ) {
-        return (
-            <div>
-                <div className="navigation">
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 0 } ) }
-                    >AB</div>
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 1 } ) }
-                    >CD</div>
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 2 } ) }
-                    >EH</div>
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 3 } ) }
-                    >IM</div>
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 4 } ) }
-                    >NP</div>
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 5 } ) }
-                    >RS</div>
-                    <div 
-                        className="tab" 
-                        onClick={ ( ) => this.setState( { selectedList: 6 } ) }
-                    >TZ</div>
-                </div>
-                <div> { this.state.distributedListStructures[ this.state.selectedList ] } </div>
+    return (
+        <div>
+            <div className="navigation">
+                <div className="tab" onClick={ ( ) => onTabClick ( 0 ) }>AB</div>
+                <div className="tab" onClick={ ( ) => onTabClick ( 1 ) }>CD</div>
+                <div className="tab" onClick={ ( ) => onTabClick ( 2 ) }>EH</div>
+                <div className="tab" onClick={ ( ) => onTabClick ( 3 ) }>IM</div>
+                <div className="tab" onClick={ ( ) => onTabClick ( 4 ) }>NP</div>
+                <div className="tab" onClick={ ( ) => onTabClick ( 5 ) }>RS</div>
+                <div className="tab" onClick={ ( ) => onTabClick ( 6 ) }>TZ</div>
             </div>
-            
-        )
+            <div> { state.distributedListStructures[ props.selectedList ] } </div>
+        </div>
+    )
+}  
 
-        // return `
-        // <div>
-        //     ${ this.state.distributedListStructures[ this.state.selectedList ] }
-        // </div>
-        // `
+const groups = [ 
+    [ 'A', 'B' ], 
+    [ 'C', 'D' ], 
+    [ 'E', 'F', 'G', 'H' ], 
+    [ 'I', 'J', 'K', 'L', 'M' ], 
+    [ 'N', 'O', 'P', 'Q' ], 
+    [ 'R', 'S' ], 
+    [ 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' ] 
+]
+
+const json = ( ) => {
+    const request = new XMLHttpRequest( )
+    request.open( 'GET', './daylily.json', false )
+    request.send( null )
+    const file = JSON.parse( request.responseText ).sort( ( a, b ) => ( a.name > b.name ) ? 1 : -1 )
+    // this.setState( { itemList: file } )
+    state.itemList = file
+    // return console.log( file, 'bbb', file.length )
+    const lists = [ [ ], [ ], [ ], [ ], [ ], [ ], [ ] ]
+    //
+    file.forEach( ( entry ) => { 
+        if ( groups[0].includes( entry.group ) ) lists[0].push( entry )
+        else if ( groups[1].includes( entry.group ) ) lists[1].push( entry )
+        else if ( groups[2].includes( entry.group ) ) lists[2].push( entry )
+        else if ( groups[3].includes( entry.group ) ) lists[3].push( entry )
+        else if ( groups[4].includes( entry.group ) ) lists[4].push( entry )
+        else if ( groups[5].includes( entry.group ) ) lists[5].push( entry )
+        else if ( groups[6].includes( entry.group ) ) lists[6].push( entry )
+    })
+    state.distributedLists = lists
+    // this.setState( { distributedLists: lists } )
+    //
+    // console.log( lists )
+
+    const structures = []
+    // let html = ''
+    lists.forEach( ( category ) => { 
+        let html = [ ]
+        category.forEach( ( item ) => {
+            html.push(
+            <div>
+                <div> { item.name }</div>
+                <div>E: { item.extra }</div>
+                <div>H: { item.height }</div>
+                <div>R: { item.radius }</div>
+                <div>P: { item.price }</div>
+            </div>)
+        })
+        structures.push( html )
+    })
+    // console.log( structures, 'structures' )
+    // this.setState( { distributedListStructures: structures } )
+    // props[ 'distributedListStructures' ]( structures ) 
+    state.distributedListStructures = structures
+
+    // console.log( state )
+    //return 
+}
+
+const state = {
+    itemList: [ ],
+    distributedLists: [ ],
+    distributedListStructures: [ ],
+    // selectedList: 0
+}
+
+const mapDispatchToProps = ( dispatch ) => {
+    return {
+        setSelectedList: ( item ) => dispatch( Actions.setSelectedList ( item ) ),
+        // setDistributedListStructures: ( item ) => dispatch( Actions.setDistributedListStructures ( item ) ),
     }
-}   
-
-export default List
+}
+  
+const mapStateToProps = ( state ) => {
+    return {
+        selectedList: state.selectedList,
+        // distributedListStructures: state.distributedListStructures,
+    }
+}
+  
+export default connect( mapStateToProps, mapDispatchToProps )( List )

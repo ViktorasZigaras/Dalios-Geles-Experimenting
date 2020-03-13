@@ -1,7 +1,8 @@
 import Constants from '../constants'
 
 const initialState = {
-    //a list of all properties
+    selectedList: 0,
+    distributedListStructures: [],
 }
 
 export default function rootReducer( state = initialState , action ) {
@@ -17,9 +18,13 @@ export default function rootReducer( state = initialState , action ) {
             fundName: fundName,
             fundId: fundId
         } )
-    }*/
-    /*else if ( action.type === Constants.SET_ITEM_TAX ) {
-        return Object.assign( {}, state, { itemTax: action.payload } )
     }
-    else { return state }*/
+    else*/ if ( action.type === Constants.SET_SELECTED_LIST ) {
+        return Object.assign( {}, state, { selectedList: action.payload } )
+    }
+    else if ( action.type === Constants.SET_DISTRIBUTED_LIST_STRUCTURES ) {
+        return Object.assign( {}, state, { distributedListStructures: action.payload } )
+    }
+    
+    else { return state }
 }
