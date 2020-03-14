@@ -5,7 +5,7 @@ import List from './List/list'
 
 const App = ( /*props*/ ) => {
     return (
-      <div className="container">
+      <div className="main-container">
           <List></List>
       </div>  
     )
