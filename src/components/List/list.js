@@ -4,10 +4,7 @@ import Actions from '../../redux/actions'
 import '../sass/list.sass'
 
 const List = ( props ) => {
-    // console.log( state.distributedListStructures.length, 'length' )
     if ( state.distributedListStructures.length === 0 ) json( props )
-    // console.log( props.selectedList, 'index' )
-    // console.log( state.distributedListStructures[ props.selectedList ], 'content' )
     return drawList( props )   
 }  
 
@@ -47,7 +44,7 @@ const json = ( props ) => {
     fetch( './daylily.json' ).then( ( responseObj ) => { return responseObj.json( ) } )
     .then( ( file ) => {
             state.itemList = file
-            console.log( file )
+            // console.log( file )
             const lists = [ [ ], [ ], [ ], [ ], [ ], [ ], [ ] ]
             state.itemList.forEach( 
                 ( entry ) => { 
@@ -62,18 +59,32 @@ const json = ( props ) => {
             )
             state.distributedLists = lists
             const structures = []
+            let url1 = ''
+            let url2 = ''
             lists.forEach( 
                 ( category ) => { 
                     let html = [ ]
                     category.forEach( 
                         ( item ) => {
+                            url1 = `./pictures/daylily/${ item.img }-1.jpg`
+                            url2 = `./pictures/daylily/${ item.img }-2.jpg`
                             html.push(
-                                <div>
-                                    <div> { item.name }</div>
-                                    <div>E: { item.extra }</div>
-                                    <div>H: { item.height }</div>
-                                    <div>R: { item.radius }</div>
-                                    <div>P: { item.price }</div>
+                                <div className="list-item">
+
+                                    <a href={ url1 } target="_blank">
+                                        <img src={ url1 }></img>
+                                    </a>
+                                    <a href={ url2 } target="_blank">
+                                        <img src={ url2 }></img>
+                                    </a>
+
+                                    <div className="list-item-details">
+                                        <div className="list-item-title"> { item.name }</div>
+                                        <div className="list-item-extra">{ item.extra } &nbsp;</div>
+                                        <div className="list-item-info">Aukštis { item.height } cm &nbsp; ⵁ { item.radius } cm</div>
+                                        <div className="list-item-price">Kaina { item.price } €</div>
+                                    </div>
+                                    
                                 </div>
                             )
                         }
@@ -94,20 +105,17 @@ const state = {
     itemList: [ ],
     distributedLists: [ ],
     distributedListStructures: [ ],
-    // selectedList: 0
 }
 
 const mapDispatchToProps = ( dispatch ) => {
     return {
         setSelectedList: ( item ) => dispatch( Actions.setSelectedList ( item ) ),
-        // setDistributedListStructures: ( item ) => dispatch( Actions.setDistributedListStructures ( item ) ),
     }
 }
   
 const mapStateToProps = ( state ) => {
     return {
         selectedList: state.selectedList,
-        // distributedListStructures: state.distributedListStructures,
     }
 }
   
