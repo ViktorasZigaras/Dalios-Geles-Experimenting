@@ -1,0 +1,50 @@
+.header
+    background-color: #FFF
+    width: 830px
+    height: 240px
+    margin-left: 220px
+    display: flex
+    border-radius: 20px
+    // margin: 10px calc( 50% - 400px ) 
+    .header-text
+        // display: inline-block
+        width: 50%
+        text-align: center
+        height: 240px
+        line-height: 240px
+        font-size: 48px
+        font-weight: bold
+        color: #3265bb
+        text-shadow: 2px 2px #0006
+    .animation
+        // display: inline-block
+        width: 50%
+        height: 240px
+        animation: logo-switch 30s ease infinite alternate
+        // name duration timing-function delay iteration-count direction fill-mode play-state
+        background-size: 100% 100%
+        background-repeat: no-repeat
+        border-radius: 0 20px 20px 0
+
+@keyframes logo-switch
+    0%
+        background-image: url('../pictures/top-1.jpg')   
+    25%
+        background-image: url('../pictures/top-2.jpg') 
+    50%
+        background-image: url('../pictures/top-3.jpg')
+    75%
+        background-image: url('../pictures/top-4.jpg') 
+    100%
+        background-image: url('../pictures/top-5.jpg') 
+        
+@media (max-width: 1090px)
+    .header
+        width: 460px
+        height: 480px
+        display: block
+        .header-text
+            width: 100%
+        .animation
+            width: 100%
+            border-radius: 0 0 20px 20px

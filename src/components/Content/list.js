@@ -9,20 +9,8 @@ const List = ( props ) => {
 }  
 
 const drawList = ( props ) => {
-    const onTabClick = ( index ) => props[ 'setSelectedList' ]( index )
     return (
         <div className="list-container">
-            <div className="navigation-container">
-                <div className="navigation">
-                    <div className="tab" onClick={ ( ) => onTabClick ( 0 ) }>AB</div>
-                    <div className="tab" onClick={ ( ) => onTabClick ( 1 ) }>CD</div>
-                    <div className="tab" onClick={ ( ) => onTabClick ( 2 ) }>EH</div>
-                    <div className="tab" onClick={ ( ) => onTabClick ( 3 ) }>IM</div>
-                    <div className="tab" onClick={ ( ) => onTabClick ( 4 ) }>NP</div>
-                    <div className="tab" onClick={ ( ) => onTabClick ( 5 ) }>RS</div>
-                    <div className="tab" onClick={ ( ) => onTabClick ( 6 ) }>TZ</div>
-                </div>
-            </div>
             <div className="list"> 
                 { state.distributedListStructures[ props.selectedList ] } 
             </div>
@@ -70,13 +58,16 @@ const json = ( props ) => {
                             url2 = `./pictures/daylily/${ item.img }-2.jpg`
                             html.push(
                                 <div className="list-item">
-
-                                    <a href={ url1 } target="_blank">
-                                        <img src={ url1 }></img>
-                                    </a>
-                                    <a href={ url2 } target="_blank">
-                                        <img src={ url2 }></img>
-                                    </a>
+                                    
+                                    <div className="list-images">
+                                        <a href={ url1 } target="_blank">
+                                            <img src={ url1 }></img>
+                                        </a>
+                                        <a href={ url2 } target="_blank">
+                                            <img src={ url2 }></img>
+                                        </a>
+                                    </div>
+                                    
 
                                     <div className="list-item-details">
                                         <div className="list-item-title"> { item.name }</div>
