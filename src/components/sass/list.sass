@@ -1,57 +1,63 @@
 .list-container
     margin-left: 200px
-
-    .list
+    padding: 10px
+    .list-item
         padding: 10px
-
-        .list-item
-            padding: 10px
-            margin: 10px
-            width: 810px
+        margin: 10px
+        width: 810px
+        display: flex
+        border: 1px solid #3265bb
+        border-radius: 20px
+        .list-images
             display: flex
-            border: 1px solid #3265bb
-            border-radius: 20px
-            .list-images
-                display: flex
-                a:nth-child(1)
-                    margin-right: 10px
+            a:nth-child(1)
+                margin-right: 10px
 
-                img
-                    height: 160px
-                    border-radius: 20px
-                    box-shadow: 5px 5px #0006
-                img:hover
-                    box-shadow: 5px 5px #0009
+            img
+                height: 160px
+                border-radius: 20px
+                box-shadow: 5px 5px #0006
+            img:hover
+                box-shadow: 5px 5px #0009
 
-            .list-item-details
-                width: 360px
-                text-align: center
-                color: #FFF
-                text-shadow: 1px 1px #3265bb
-                font-size: 18px
-                line-height: 24px
+        .list-item-details
+            width: 360px
+            text-align: center
+            color: #FFF
+            text-shadow: 1px 1px #3265bb
+            font-size: 18px
+            line-height: 24px
 
-                .list-item-title
-                    font-weight: bold
-                    font-size: 22px
-                    line-height: 48px
-                    margin-top: 15px
+            .list-item-title
+                font-weight: bold
+                font-size: 22px
+                line-height: 48px
+                margin-top: 15px
 
-                // .list-item-extra
-                    
-                // .list-item-info
-                    
-                // .list-item-price
+            // .list-item-extra
+                
+            // .list-item-info
+                
+            // .list-item-price
+
+    .info-content
+        color: #FFF
+        text-shadow: 1px 1px #3265bb
+        text-align: justify
+        width: 810px
+        border: 1px solid #3265bb
+        margin: 10px
+        border-radius: 20px
+        padding: 0 10px
                     
 @media (max-width: 1090px)
     .list-container
-        // margin-left: 100px
-        .list
-            .list-item
-                width: 440px
-                display: block    
-                // border: 1px solid red 
-                .list-item-details
-                    width: 440px
-
-// @media screen and (max-width: 1080px)     
+        margin-left: calc( 50% - 220px )
+        .list-item
+            width: 440px
+            display: block    
+            .list-item-details
+                width: 440px 
+        
+        .info-content
+            width: 440px

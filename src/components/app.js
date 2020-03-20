@@ -9,9 +9,10 @@ import Footer from './Content/footer'
 const App = ( /*props*/ ) => {
     return (
       <div className="main-container">
+          <div className="header-container">
+              <Header></Header>
+          </div>
           <Navigation></Navigation>
-
-          <Header></Header>
           <List></List>
           <Footer></Footer>
       </div>  

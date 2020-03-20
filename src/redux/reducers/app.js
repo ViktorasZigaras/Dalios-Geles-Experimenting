@@ -1,7 +1,7 @@
 import Constants from '../constants'
 
 const initialState = {
-    selectedList: 0,
+    selectedList: -1,
 }
 
 export default function rootReducer( state = initialState , action ) {

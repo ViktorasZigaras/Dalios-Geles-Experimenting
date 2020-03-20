@@ -1,4 +1,34 @@
 .footer
-    background-color: green
+    background-color: #4c8731
+    min-width: 1080px
     width: 100%
-    height: 50px
+    height: 100px
+    border-top: 3px solid #3f453c
+    color: #FFF
+    text-shadow: 2px 2px #0006
+    line-height: 100px
+    font-size: 24px
+    text-align: center
+    position: relative
+
+    .to-top
+        position: absolute
+        top: -15px
+        right: calc( 50% - 50px )
+        width: 100px
+        height: 30px
+        border-radius: 50px
+        cursor: pointer
+        text-decoration: none
+        border: 3px solid #3f453c
+        background-color: #172078
+        line-height: 30px
+        font-size: 14px
+        color: #FFF
+        box-shadow: 3px 3px #0006
+    .to-top:hover
+        box-shadow: 3px 3px #000C
+
+@media (max-width: 1090px)
+    .footer
+        min-width: 720px

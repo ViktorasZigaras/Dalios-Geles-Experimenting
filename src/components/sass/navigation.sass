@@ -1,18 +1,28 @@
 .navigation-container
-    // position: relative
-    
-    .navigation
-        // display: inline-block
-        border: 3px solid blue
-        position: fixed
-        // height: 50px
-        background-color: #FFF
-        top: 100px
-        left: 10px
-        padding: 10px
+    border: 3px solid #3f453c
+    position: fixed
+    border-radius: 20px
+    background-color: #4c8731
+    top: 275px
+    left: 20px
+    padding: 10px
+    width: 150px
 
-        .tab
-            // display: inline-block
-            width: 30px
-            border: 1px solid green
-            cursor: pointer
+    .tab
+        width: 135px
+        cursor: pointer
+        color: #FFF
+        text-shadow: 2px 2px #3265bb
+        font-size: 16px
+        line-height: 24px
+        font-weight: bold
+        padding: 10px 0
+    .tab:hover
+        color: #fce172
+
+@media (max-width: 1090px)
+    .navigation-container
+        position: relative
+        top: 0
+        left: calc( 50% - 220px )
+        margin: 20px 0 0 120px
