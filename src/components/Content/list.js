@@ -53,8 +53,8 @@ const json = ( props ) => {
                     let html = [ ]
                     category.forEach( 
                         ( item ) => {
-                            url1 = `../assets/${ item.img }-1.jpg`
-                            url2 = `../assets/${ item.img }-2.jpg`
+                            url1 = `../assets/daylily/${ item.img }-1.jpg`
+                            url2 = `../assets/daylily/${ item.img }-2.jpg`
                             // url1 = `../pictures/daylily/${ item.img }-1.jpg`
                             // url2 = `../pictures/daylily/${ item.img }-2.jpg`
                             html.push(
